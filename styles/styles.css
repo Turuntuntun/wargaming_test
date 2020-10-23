@@ -1,0 +1,62 @@
+*::placeholder {
+    color: black;
+}
+*{
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 95%;
+    margin: 20px auto;
+}
+
+.filter-form_selects{
+    display: flex;
+    justify-content: space-between;
+    margin:  15px 0;
+}
+.filter-form_selects_elem{
+    background-color: #C4C4C4;
+    width: 31%;
+    outline: none;
+    border: 1px solid #D4D4D4;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.main-hr{
+    border:1px solid #CBCBCB;
+}
+
+
+.filter-form_name{
+    width: 100%;
+    color: black;
+    padding: 10px;
+    background-color: #C4C4C4;
+    outline: none;
+    border: 1px solid #D4D4D4;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.result{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3.5%;
+}
+
+.result_elem{
+    width: 100%;
+    background-color: #C4C4C4;
+    margin: 15px 0 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.result_elem_title{
+    color: #545454;
+}
+.result_elem_values{
+    font-weight: bold;
+}
